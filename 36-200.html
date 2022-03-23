@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Assignment 5</title>
+    <meta charset="UTF-8">
+    
+    <!-- styles -->
+      <link rel="stylesheet" type="text/css" href="style.css">
+    
+    <!-- fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab" rel="stylesheet">
+
+
+    <!-- javascript -->
+    <script src="main.js" type="text/javascript"></script>
+
+
+</head>
+
+
+
+<body>
+   
+    <div id="welcomeHead">
+      <header>
+          <h1>Course Description</h1>
+      </header>
+    </div>
+    
+    
+    <div id="tabs">
+            <button type="button" onclick="window.location.href='home.html';"> Home</button>
+            <button type="button" onclick="window.location.href='courses.html';"> Courses</button>
+            <button type="button" onclick="window.location.href='myCourses.html';"> My Courses (3)</button>
+
+    </div>     
+
+    <div id="courses">
+        <div class="list">
+          <h3>
+            36-200 Reasoning with Data
+          </h3>
+          <nav>
+              Professor Smith<br>
+              <br>
+              Units: 9<br>
+              FCE: 6<br>
+              <br>
+              Description:<br>
+              “This course is about statistical decisions and working with data. We will learn about hypothesis testing and other statistical practices in this course.”
+              <br>
+            </nav>
+            
+            <br>
+            <br>
+            <br>
+            <br>
+           
+           
+            
+<! –– Selection Selector ––>
+            
+            
+            <h3>Select your section:</h4>
+            <p>Section A<span id="course1">:</span><span id="description1">: You have added Section A to your schedule for Mondays from 1-2pm in Wean Hall 5234</span></p>
+            <button onclick="SectionA36200()" id="name1">Add Section</button>
+            <p>Section B<span id="course2">:</span><span id="description2">: You have added Section B to your schedule for Mondays from 2-3pm in Wean Hall 5234</span></p>
+            <button onclick="SectionB36200()" id="name2">Add Section</button>
+
+
+
+    </div>
+          
+
+        </div>
+
+
+
+
+</div>
+
+</body>
+
+</html>

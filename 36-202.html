@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Assignment 5</title>
+    <meta charset="UTF-8">
+    
+    <!-- styles -->
+      <link rel="stylesheet" type="text/css" href="style.css">
+    
+    <!-- fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab" rel="stylesheet">
+
+
+</head>
+
+
+
+
+<body>
+   
+    <div id="welcomeHead">
+      <header>
+          <h1>Course Description</h1>
+      </header>
+    </div>
+    
+    
+    <div id="tabs">
+            <button type="button" onclick="window.location.href='home.html';"> Home</button>
+            <button type="button" onclick="window.location.href='courses.html';"> Courses</button>
+            <button type="button" onclick="window.location.href='myCourses.html';"> My Courses (3)</button>
+
+    </div>     
+
+    <div id="courses">
+        <div class="list">
+          <h3>
+            36-202 Methods for Statistics
+          </h3>
+          <nav>
+              Professor Smith<br>
+              <br>
+              Units: 9<br>
+              FCE: 6<br>
+              <br>
+              Description:<br>
+              “This course is the second course in the statistics track at CMU. In the class we will cover the central limit theorem, Bernolli functions, and other important statistics information.”
+              <br>
+            </nav>
+            
+            <br>
+            <br>
+            <br>
+            <br>
+            
+            
+            
+            
+<! –– Selection Selector ––>
+
+            <p>Select your section:</p>
+            
+            <div>
+              <input type="checkbox" id="A" name="A"
+                     checked>
+              <label for="A">Section A: Monday 1-2pm 
+Wean Hall 5234</label>
+            </div>
+            
+            <div>
+              <input type="checkbox" id="B" name="B">
+              <label for="B">Section B: Monday 2-3pm
+Wean Hall 5234</label>
+            </div>
+
+
+            <div>
+              <input type="checkbox" id="C" name="C">
+              <label for="C">Section C: Tuesday 1-2pm
+Wean Hall 5234</label>
+            </div>
+            
+            
+            
+            <div id="tabs">
+             <button type="button" onclick="alert('A new course had been added to your schedule. If you wish to remove this course select Drop Course in the Courses page.')">Add Course</button>
+              <button type="button" onclick="alert('The course has been droped from your schedule. If you wish to add this course back select Add Course in the Courses page.')"> Drop Course</button>
+            </div>    
+
+
+        </div>
+
+
+
+
+
+</div>
+
+</body>
+
+</html>
